@@ -12,6 +12,9 @@
  */
 
 import React from 'react';
+import io from 'socket.io-client';
+
+window.socket = io();
 
 export default class App extends React.PureComponent { // eslint-disable-line react/prefer-stateless-function
 
